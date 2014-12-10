@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+    <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="list.js"></script>
+</head>
+<body>
+    <div class="row">
+
+        <input type="text" name="lname" id="inputNewUrl" class="inputNewUrl">
+    </div>
+
+    <div class="row">
+        <table class="jiraListContainer">
+            <tr class="firstRow"></tr>
+        </table>
+    </div>
+
+
+
+
+
+<style>
+    body {
+        width: 250px;
+    }
+    .row {
+        display: block;
+    }
+    .jiraListContainer {
+        margin: 10px auto;
+        width: 100%;
+    }
+    .jiraListContainer tr{
+        height: 25px;
+        width: 200px;
+    }
+    tr .col1 {
+        width:55%;
+    }
+    tr .col2 {
+        width:35%;
+    }
+    tr .col3 {
+        width:10%;
+    }
+    .col3:hover {
+        cursor: pointer;
+        color: green;
+        font-weight: bold;
+    }
+    .ticketLink {
+        text-decoration: none;
+        color: black;
+    }
+    .ticketLink:hover {
+        color:blue;
+    }
+    .inputNewUrl {
+        border: 1px solid #cdcdcd;
+        border-radius: 5px;
+        padding: 5px 2px;
+        margin-top: 5px;
+        width: 97%;
+        font-size: 12px;
+    }
+    .firstRow{
+        height: 0px !important;
+    }
+</style>
+</body>
+</html>

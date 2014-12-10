@@ -1,0 +1,14 @@
+{
+    "name": "Jira Tracker",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "list.html",
+        "default_icon": "listIcon.png"
+
+    },
+    "content_scripts": [ {
+        "js": [ "jquery-2.1.1.min.js", "list.js" ],
+        "matches": [ "http://*/*", "https://*/*"]
+    }]
+}
